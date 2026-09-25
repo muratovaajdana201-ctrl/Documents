@@ -19,10 +19,10 @@ I chose light colors with a soft green background, pink sections, purple text, a
 
 The approximate colors I used are:
 
-* Light green: `#e8f3ed`
-* Strawberry cream/pink: `#f8d9dc`
-* Mauve/purple: `#915f78`
-* Light cream: `#fff8ed`
+* Light green: #e8f3ed
+* Strawberry cream/pink: #f8d9dc
+* Mauve/purple: #915f78
+* Light cream: #fff8ed
 
 I also selected the images myself. I used pictures from Pinterest that matched the topics and the colors of my website. I chose different images for the project cards and the gallery so that the page would look more personal and interesting.
 
@@ -40,7 +40,7 @@ The navigation bar contains:
 
 I used Flexbox for the header.
 
-The logo is placed on the left side, while the navigation links are placed on the right side. I used `justify-content: space-between` to create space between them and `align-items: center` to align the elements vertically.
+The logo is placed on the left side, while the navigation links are placed on the right side. I used justify-content: space-between to create space between them and align-items: center to align the elements vertically.
 
 I also used `gap` between the navigation links so that they do not stay too close to each other.
 
@@ -176,7 +176,7 @@ This part shows how Flexbox and Grid can be used together. Grid is useful for th
 
 The footer contains:
 
-`© 2026 Aidana's Personal Website`
+© 2026 Aidana's Personal Website
 
 ### Screenshot
 
