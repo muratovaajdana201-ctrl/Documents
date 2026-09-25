@@ -42,7 +42,7 @@ I used Flexbox for the header.
 
 The logo is placed on the left side, while the navigation links are placed on the right side. I used justify-content: space-between to create space between them and align-items: center to align the elements vertically.
 
-I also used `gap` between the navigation links so that they do not stay too close to each other.
+I also used gap between the navigation links so that they do not stay too close to each other.
 
 ### Screenshot
 
@@ -65,11 +65,11 @@ The projects are:
 2. Dorama Website
 3. Web Design
 
-I used Flexbox to place the cards in one row. I also used `flex: 1` for the cards so they can have equal width.
+I used Flexbox to place the cards in one row. I also used flex: 1 for the cards so they can have equal width.
 
 Inside each card, I used Flexbox with a column direction. This allowed me to place the image, title, description, and button vertically.
 
-I used `margin-top: auto` for the buttons so that the buttons stay at the bottom of the cards even when the text has different lengths.
+I used margin-top: auto for the buttons so that the buttons stay at the bottom of the cards even when the text has different lengths.
 
 For the hover effect, I changed the background color of the card when the mouse is placed over it.
 
