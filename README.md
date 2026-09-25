@@ -180,8 +180,8 @@ The footer contains:
 
 ### Screenshot
 
-![Task 4 - Portfolio](screenshotsaido/task4(1)-portfolio.png)
 ![Task 4 - Portfolio](screenshotsaido/task4(2)-portfolio.png)
+![Task 4 - Portfolio](screenshotsaido/task4(1)-portfolio.png)
 
 ## Work Process
 
