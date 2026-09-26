@@ -28,7 +28,7 @@ I also selected the images myself. I used pictures from Pinterest that matched t
 
 ## Task 0 — Navigation Bar
 
-For the first task, I created a navigation bar.
+ I created a navigation bar.
 
 The navigation bar contains:
 
@@ -50,7 +50,7 @@ I also used gap between the navigation links so that they do not stay too close 
 
 ## Task 1 — Card Row
 
-For Task 1, I created three project cards.
+ I created three project cards.
 
 Each card contains:
 
@@ -69,7 +69,7 @@ I used Flexbox to place the cards in one row. I also used flex: 1 for the cards 
 
 Inside each card, I used Flexbox with a column direction. This allowed me to place the image, title, description, and button vertically.
 
-I used margin-top: auto for the buttons so that the buttons stay at the bottom of the cards even when the text has different lengths.
+margin-top: auto for the buttons so that the buttons stay at the bottom of the cards even when the text has different lengths.
 
 For the hover effect, I changed the background color of the card when the mouse is placed over it.
 
@@ -79,7 +79,7 @@ For the hover effect, I changed the background color of the card when the mouse 
 
 ## Task 2 — Page Layout with Grid Areas
 
-For Task 2, I created a page layout using CSS Grid.
+ I created a page layout using CSS Grid.
 
 The layout contains:
 
@@ -114,7 +114,7 @@ This task helped me understand the difference between arranging elements with Fl
 
 ## Task 3 — Image Gallery
 
-For Task 3, I created an image gallery with nine images.
+ I created an image gallery with nine images.
 
 I chose the images myself from Pinterest. I tried to choose pictures that matched the general style and colors of my website.
 
