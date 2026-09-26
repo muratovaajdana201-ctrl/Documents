@@ -77,9 +77,6 @@ body {
     padding: 20px;
 }
 
-.grid-section {
-    padding: 20px;
-}
 
 .grid-section > h2 {
     text-align: center;
@@ -145,6 +142,7 @@ body {
     background-color: #fff8ed;
     padding: 15px;
     text-align: center;
+    position: relative;
 }
 
 .gallery-item img {
@@ -153,9 +151,20 @@ body {
     margin: 0 auto;
 }
 
-.gallery-item p {
+.gallery-item .caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff8ed;
     color: #915f78;
-    margin: 10px;
+    opacity: 0;
+}
+
+.gallery-item:hover .caption {
+    opacity: 1;
 }
 .portfolio-section {
     padding: 20px;
