@@ -75,7 +75,7 @@ For the hover effect, I changed the background color of the card when the mouse 
 
 ### Screenshot
 
-![Task 1 - Card Row](screenshotsaido/task1-cards.png)
+![Task 1 - Card Row](screenshotsaido/tassk1-cards.png)
 
 ## Task 2 — Page Layout with Grid Areas
 
