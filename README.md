@@ -90,20 +90,19 @@ The layout contains:
 
 I used:
 
-```css
+**
 display: grid;
-```
+**
 
 and created two columns and three rows.
 
 I also used named Grid areas:
-
-```css
+**
 grid-template-areas:
     "header header"
     "sidebar main"
     "footer footer";
-```
+**
 
 This allowed me to place the header across the top, the sidebar on the left, the main content on the right, and the footer at the bottom.
 
@@ -132,11 +131,11 @@ The gallery has:
 
 I used:
 
-```css
+**
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 20px;
-```
+**
 
 The gallery helped me practice creating rows and columns with CSS Grid.
 
@@ -233,11 +232,6 @@ I also practiced using:
 * Live Server
 * GitHub
 
-### Live Server
-
-While working on the assignment, I installed the **Live Server** extension in Visual Studio Code. I used it to open my HTML page directly in the browser and see the changes immediately.
-
-It was useful because I could edit the HTML or CSS, save the file, refresh the page, and quickly check how the layout looked. I used Live Server while working on the navigation bar, cards, Grid layout, gallery, and final portfolio.
 
 ### Conclusion
 
