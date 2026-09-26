@@ -1,259 +1,203 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e8f3ed;
-    color: #915f78;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox and Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    background-color: #f8d9dc;
-}
+<header class="navbar">
 
-.logo {
-    color: #915f78;
-    font-size: 24px;
-    font-weight: bold;
-}
+    <div class="logo">My Portfolio</div>
 
-.nav-links {
-    display: flex;
-    gap: 20px;
-}
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    </nav>
 
-.nav-links a {
-    color: #915f78;
-    text-decoration: none;
-}
+</header>
 
-.card-section {
-    padding: 20px;
-}
+<section class="card-section">
 
-.card-section h2 {
-    text-align: center;
-    color: #915f78;
-}
+    <h2>My Projects</h2>
 
-.cards {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
+    <div class="cards">
 
-.card {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: #f8d9dc;
-    color: #915f78;
-}
+        <div class="card">
+            <img src="screenshotsaido/travel.jpg" alt="Travel">
+            <h3>Travel</h3>
+            <p>I like traveling and discovering new places. This project shows some places that I would like to visit.</p>
+            <button>View Project</button>
+        </div>
 
-.card img {
-    width: 200px;
-    height: 200px;
-     margin: 0 auto;
+        <div class="card">
+            <img src="screenshotsaido/dorama.jpg" alt="Dorama">
+            <h3>Dorama</h3>
+            <p>I enjoy watching doramas in my free time. This project is about some stories and characters that I like.</p>
+            <button>View Project</button>
+        </div>
 
+        <div class="card">
+            <img src="screenshotsaido/webpage.jpg" alt="Web Page">
+            <h3>Web Page</h3>
+            <p>I created this project to practice HTML and CSS and learn how to make a simple webpage.</p>
+            <button>View Project</button>
+        </div>
 
-}
+    </div>
 
-.card button {
-    margin-top: auto;
-    padding: 10px;
-    border: none;
-    background-color: #915f5f;
-    color: white;
-}
+</section>
+<section class="grid-section">
 
-.card:hover {
-    background-color: #f3cbd0;
-}
-.grid-section {
-    padding: 20px;
-}
+    <h2>Page Layout with Grid</h2>
 
+    <div class="page-layout">
 
-.grid-section > h2 {
-    text-align: center;
-    color: #915f78;
-}
+        <header class="grid-header">
+            <h2>My Website</h2>
+        </header>
 
-.page-layout {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: auto 200px auto;
-    grid-template-areas:
-        "header header"
-        "sidebar main"
-        "footer footer";
-    gap: 20px;
-}
+        <div class="grid-sidebar">
+            <h3>Sidebar</h3>
+            <p>About</p>
+            <p>Projects</p>
+            <p>Contact</p>
+        </div>
 
-.grid-header {
-    grid-area: header;
-    background-color: #fff8ed;
-    padding: 20px;
-    text-align: center;
-    color: #915f78;
-}
+        <main class="grid-main">
+            <h3>Main Content</h3>
+            <p>Anyeon, My name is Aidana, I'm 19 years old,I study software engenering in AITU,I love psychology</p>
+            
+        </main>
 
-.grid-sidebar {
-    grid-area: sidebar;
-    background-color: #fff8ed;
-    padding: 20px;
-    color: #915f78;
-}
+        <footer class="grid-footer">
+            <p>My Portfolio</p>
+        </footer>
 
-.grid-main {
-    grid-area: main;
-    background-color: #fff8ed;
-    padding: 20px;
-    color: #915f78;
-}
+    </div>
 
-.grid-footer {
-    grid-area: footer;
-    background-color: #fff8ed;
-    padding: 20px;
-    text-align: center;
-    color: #915f78;
-}
-.gallery-section {
-    padding: 20px;
-}
+</section>
+<section class="gallery-section">
+    <h2>My Gallery</h2>
 
-.gallery-section h2 {
-    text-align: center;
-    color: #915f78;
-}
+    <div class="gallery">
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery1.jpg" alt="Gallery image 1">
+            <p class="caption">Dorama</p>
+        </div>
 
-.gallery-item {
-    background-color: #fff8ed;
-    padding: 15px;
-    text-align: center;
-    position: relative;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery2.jpg" alt="Gallery image 2">
+            <p class="caption">Flowers</p>
+        </div>
 
-.gallery-item img {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery3.jpg" alt="Gallery image 3">
+            <p class="caption">Personality</p>
+        </div>
 
-.gallery-item .caption {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    right: 15px;
-    margin: 0;
-    padding: 10px;
-    background-color: #fff8ed;
-    color: #915f78;
-    opacity: 0;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery4.jpg" alt="Gallery image 4">
+            <p class="caption">Place</p>
+        </div>
 
-.gallery-item:hover .caption {
-    opacity: 1;
-}
-.portfolio-section {
-    padding: 20px;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery5.jpg" alt="Gallery image 5">
+            <p class="caption">Favorite</p>
+        </div>
 
-.portfolio-section > h2 {
-    text-align: center;
-    color: #915f78;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery6.jpg" alt="Gallery image 6">
+            <p class="caption">Good Memories</p>
+        </div>
 
-.portfolio-layout {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-        "header header"
-        "projects info"
-        "footer footer";
-    gap: 20px;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery7.jpg" alt="Gallery image 7">
+            <p class="caption">Beautiful Moment</p>
+        </div>
 
-.portfolio-header {
-    grid-area: header;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8d9dc;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery8.jpg" alt="Gallery image 8">
+            <p class="caption">Books</p>
+        </div>
 
-.portfolio-nav {
-    display: flex;
-    gap: 20px;
-}
+        <div class="gallery-item">
+            <img src="screenshotsaido/gallery9.jpg" alt="Gallery image 9">
+            <p class="caption">My Mood</p>
+        </div>
 
-.portfolio-nav a {
-    color: #915f78;
-    text-decoration: none;
-}
+    </div>
+</section>
 
-.portfolio-projects {
-    grid-area: projects;
-    padding: 20px;
-    background-color: #fff8ed;
-}
+    </div>
 
-.portfolio-projects h3 {
-    color: #915f78;
-}
+</section>
+<section id="home" class="portfolio-section">
+    <h2> My Portfolio</h2>
 
-.portfolio-card {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #f8d9dc;
-    color: #915f78;
-}
+    <div class="portfolio-layout">
 
-.portfolio-card img {
-    width: 150px;
-    height: 150px;
-    margin: auto 0;
-}
+        <header class="portfolio-header">
+            <div class="logo">Aidana</div>
 
-.portfolio-card div {
-    display: flex;
-    flex-direction: column;
-}
+            <nav class="portfolio-nav">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+        </header>
 
-.portfolio-card button {
-    margin-top: auto;
-    padding: 10px;
-    border: none;
-    background-color: #915f78;
-    color: white;
-}
+       <main id="projects" class="portfolio-projects">
+    <h3>My Projects</h3>
 
-.portfolio-info {
-    grid-area: info;
-    padding: 20px;
-    background-color: #fff8ed;
-    color: #915f78;
-}
+            <div class="portfolio-card">
+                <img src="screenshotsaido/travel.jpg" alt="Travel Project">
+                <div>
+                    <h4>Travel Website</h4>
+                    <p>A simple website about travel and interesting places.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
 
-.portfolio-footer {
-    grid-area: footer;
-    padding: 20px;
-    text-align: center;
-    background-color: #f8d9dc;
-    color: #915f78;
-}
+            <div class="portfolio-card">
+                <img src="screenshotsaido/dorama.jpg" alt="Dorama Project">
+                <div>
+                    <h4>Dorama Website</h4>
+                    <p>A website about doramas and favorite stories.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <img src="screenshotsaido/webpage.jpg" alt="Web Project">
+                <div>
+                    <h4>Web Design</h4>
+                    <p>A simple web project created with HTML and CSS.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+        </main>
+
+        <div id="about" class="portfolio-info">
+    <h3>About Me</h3>
+            <p>My name is Aidana. I am an IT student at Astana IT University.</p>
+
+            <h3>Skills</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Flexbox</p>
+            <p>Grid</p>
+        </div>
+
+        <footer id="contact" class="portfolio-footer">
+    <p>© 2026 Aidana's Personal Website</p>
+</footer>
+    </div>
+</section>
+</body>
+</html>
