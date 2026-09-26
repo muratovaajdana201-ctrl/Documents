@@ -110,7 +110,7 @@ This task helped me understand the difference between arranging elements with Fl
 
 ### Screenshot
 
-![Task 2 - Grid Layout](screenshotsaido/task2-grid-layout.png)
+![Task 2 - Grid Layout](screenshotsaido/tassk2-grid-layout.png)
 
 ## Task 3 — Image Gallery
 
